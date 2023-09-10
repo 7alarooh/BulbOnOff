@@ -1,0 +1,19 @@
+<h1>light works!</h1>
+
+
+    
+    <!--  -->
+
+  <div class="light" [ngClass]="{'on': isLightOn, 'off': !isLightOn}">
+    <div class="bulb"></div>
+    
+  </div>
+
+
+
+
+  <div class="light_">
+    <img *ngIf="isLightOn" src="assets/onlight.png" alt="Light On">
+    <img *ngIf="!isLightOn" src="assets/offlight.png" alt="Light Off">
+  </div>
+  <button (click)="toggleLight()">Toggle Light</button>

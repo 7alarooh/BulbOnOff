@@ -1,0 +1,29 @@
+.light {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+  }
+  
+  .bulb {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  
+  .on {
+    background-color: #f2ff5b; /* Light yellow when on */
+  }
+  
+  .off {
+    background-color: #ccc; /* Gray when off */
+  }
+  
+  button {
+    margin-top: 20px;
+  }
